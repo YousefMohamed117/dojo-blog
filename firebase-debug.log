@@ -1,0 +1,62 @@
+[debug] [2024-01-08T20:17:51.366Z] ----------------------------------------------------------------------
+[debug] [2024-01-08T20:17:51.370Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\youse\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-08T20:17:51.370Z] CLI Version:   13.0.1
+[debug] [2024-01-08T20:17:51.371Z] Platform:      win32
+[debug] [2024-01-08T20:17:51.371Z] Node Version:  v18.18.0
+[debug] [2024-01-08T20:17:51.372Z] Time:          Mon Jan 08 2024 23:17:51 GMT+0300 (Arabian Standard Time)
+[debug] [2024-01-08T20:17:51.373Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-08T20:17:51.480Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-08T20:17:51.481Z] > authorizing via signed-in user (usefmohank@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Templates\vue\dojo-blog
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-08T20:18:01.987Z] > refreshing access token with scopes: []
+[debug] [2024-01-08T20:18:01.990Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-01-08T20:18:01.990Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-08T20:18:02.374Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-01-08T20:18:02.374Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-01-08T20:18:02.387Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-01-08T20:18:03.242Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-01-08T20:18:03.242Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project yousef-firebase-ae727 (yousef Firebase) 
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2024-01-08T20:18:07.932Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yousef-firebase-ae727/services/firebasedatabase.googleapis.com [none]
+[debug] [2024-01-08T20:18:07.932Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yousef-firebase-ae727/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/yousef-firebase-ae727
+[debug] [2024-01-08T20:18:09.142Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yousef-firebase-ae727/services/firebasedatabase.googleapis.com 200
+[debug] [2024-01-08T20:18:09.143Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yousef-firebase-ae727/services/firebasedatabase.googleapis.com [omitted]
+[warn] !  database: missing required API firebasedatabase.googleapis.com. Enabling now... 
+[debug] [2024-01-08T20:18:09.144Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/yousef-firebase-ae727/services/firebasedatabase.googleapis.com:enable [none]
+[debug] [2024-01-08T20:18:09.144Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/yousef-firebase-ae727/services/firebasedatabase.googleapis.com:enable x-goog-quota-user=projects/yousef-firebase-ae727
+[debug] [2024-01-08T20:18:10.993Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/yousef-firebase-ae727/services/firebasedatabase.googleapis.com:enable 200
+[debug] [2024-01-08T20:18:10.993Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/yousef-firebase-ae727/services/firebasedatabase.googleapis.com:enable [omitted]
+[debug] [2024-01-08T20:18:21.004Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/yousef-firebase-ae727/services/firebasedatabase.googleapis.com [none]
+[debug] [2024-01-08T20:18:21.005Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/yousef-firebase-ae727/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/yousef-firebase-ae727
+[debug] [2024-01-08T20:18:22.074Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/yousef-firebase-ae727/services/firebasedatabase.googleapis.com 200
+[debug] [2024-01-08T20:18:22.074Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/yousef-firebase-ae727/services/firebasedatabase.googleapis.com [omitted]
+[info] +  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2024-01-08T20:18:22.077Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/yousef-firebase-ae727 [none]
+[debug] [2024-01-08T20:18:22.486Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/yousef-firebase-ae727 200
+[debug] [2024-01-08T20:18:22.486Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/yousef-firebase-ae727 {"projectId":"yousef-firebase-ae727","projectNumber":"805319693962","displayName":"yousef Firebase","name":"projects/yousef-firebase-ae727","resources":{"hostingSite":"yousef-firebase-ae727"},"state":"ACTIVE","etag":"1_685fc1ef-d282-4915-9d7f-1ef819d0221e"}
